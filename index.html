@@ -1,482 +1,497 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Yeonwoo</title>
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: #ff80ab;
+        background-repeat: no-repeat;
+        background-size: 20%;
+      }
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      .chicken {
+        height: 13%;
+        position: fixed;
+        top: 10%;
+        right: 1%;
+        z-index: 1;
+      }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> 
-
- <style>
- 
- body{
- background-color:#ff80ab    ;
- background-repeat:no-repeat;
- background-size:20%;
- }
-
- .chicken{
-  height:13%;
-  position:fixed;
-  top:10%;
-  right:1%;
-  z-index:1;
- }
-
-/* .yeonwoo-img{
+      /* .yeonwoo-img{
 border:5px solid #ff80ab  ;
 border-radius:25px;
 
 } */
 
+      #gallery {
+        background-color: white;
 
-#gallery{
-  background-color:white;
+        border-radius: 1%;
+        padding: 1%;
+        max-width: 100%;
+      }
 
-  border-radius:1%;
-  padding:1%;
-  max-width:100%;
+      .gallerySection {
+        background-color: #f8a1d1;
+        padding-bottom: 8%;
+        padding-top: 8%;
+      }
+      .firstTrivia {
+        background-color: white;
+      }
 
-}
+      section {
+        border-radius: 20px;
+      }
 
-.gallerySection{
-  background-color: #f8a1d1 ;
-    padding-bottom:8%;
-    padding-top:8%;
-}
-.firstTrivia{
-  background-color:white;
-}
+      .foot {
+        background-color: #000000;
+        padding: 4px;
 
-section{
-  border-radius:20px;
-}
-
-
-.foot{
-  background-color:#000000;
-  padding:4px;
-
-
-bottom:0px;
-left:0px;
-height:4%;
-width:100%;
-z-index: 1;
-color:#c2185b;
-}
-  </style>
-  <title> </title>
-</head>
-<body>
-
-
- <div class="navbar-fixed">
-    <nav class="nav-wrapper center-align   pink accent-2">
-      <div class="container">
-          
-        <a href="#" class="sidenav-trigger" data-target="mobile-links">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="center-align hide-on-med-and-down ">
-          <li><a href="" >Home</a></li>
-          <li><a href="#gallery">Gallery</a></li> 
-          <li><a href="#about" class="">About</a></li>
-      
-        </ul> 
-      </div>
-    </nav>
-  </div>
-
-  <ul class="sidenav" id="mobile-links">
-    <li><a href="">Home</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="">Contact</a></li>
-  </ul>
-
-
-
-
-
-<br />
-
-
-       <section class="container section scrollspy firstTrivia" id="photos ">
-    <div class="row">
-      <div class="col s12 l3 push-l1">
-          <img src="img/row/1 (3).jpg" alt="" class=" materialboxed responsive-img circle">
-      </div>
-      <div class="col s12 l7 offset-l2">
-        <h4 class="pink-text text-darken-4 flow-text" >Stage Name: Yeonwoo (연우)</h4>
-        <h6 class="pink-text text-darken-4" > Birth Name: Lee Da Bin (이다빈) </h6>
-        <h6 class="pink-text text-darken-4"> Position: Vocalist, Rapper, Visual </h6>
-        <h6 class="pink-text text-darken-4"> Birthday: August 01, 1996 </h6>
-        <h6 class="pink-text text-darken-4" >Height: 169 cm (5’7″) </h6>
-        <h6 class="pink-text text-darken-4"> Weight: 49 kg (108 lbs) </h6>
-        <h6 class="pink-text text-darken-4"> Blood Type: B </h6>
-
-
-
-
-      </div>
-    </div>
-   </section>
-
-<br/>
-
-<section class="container section scrollspy firstTrivia" id="photos">
-    <div class="row">
-      <div class="col s12 l3 push-l7">
-          <img src="img/wb.png" alt="" class="materialboxed responsive-img circle">
-      </div>
-      <div class="col s12 l7 pull-l1 left">
-        <br>
-        <h4 class="pink-text text-darken-4 flow-text"> She likes chicken. </h4>
-        <h4 class="pink-text text-darken-4 flow-text">  She likes fishing.  </h4>
-        <h4 class="pink-text text-darken-4 flow-text" >  She has a bad handwriting. </h4>
-        <h4 class="pink-text text-darken-4 flow-text" >  She’s a big fan of Whitebeard. </h4>
-        
-
-
-      </div>
-    </div>
-   </section>
-
-
-<br/>
-   <section class="container section scrollspy firstTrivia">
-    <div class="row">
-      <div class="col s12 l3 push-l1 ">
-          <img src="img/row/1 (2).jpg" alt="" class=" materialboxed responsive-img circle">
-      </div>
-      <div class="col s12 l7 offset-l1 right">
-        <br> 
-        <h4 class="pink-text text-darken-4 flow-text" > Her hobbies are staring at the ground.  </h4>
-        <h4 class="pink-text text-darken-4 flow-text" > Watching movies and anime.  </h4>
-        <h4 class="pink-text text-darken-4 flow-text" > Lying down and drawing the members.  </h4>
-
-
-      </div>
-    </div>
-   </section>
-
-
-
-<br /> <br /> <br />
-<div class="gallerySection ">
-  <br/> 
-<div id="gallery" class="container scrollspy">
-
-
-
-
-<div class="row">
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/whitered.jpg" class="responsive-img  materialboxed" id="yeonwoo-img">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
+        bottom: 0px;
+        left: 0px;
+        height: 4%;
+        width: 100%;
+        z-index: 1;
+        color: #c2185b;
+      }
+    </style>
+    <title> </title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper center-align pink accent-2">
+        <div class="container">
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
           </a>
-       
-        </div> 
-    </div>
-</div>
-
-
-
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/blue.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/violet.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/whiteblue.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/red.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row2/yellow 2.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-    </div>
-</div>
-</div>
-
-
-<div class="row">
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/bleach.jpg" class="responsive-img  materialboxed " id="yeonwoo-img">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-  
-
-        </div> 
-    </div>
-</div>
-
-
-
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/elmo.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/dog.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/ace.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/white.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row1/bunny.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-
-<div class="row">
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/blue.jpg" class="responsive-img  materialboxed" id="yeonwoo-img">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-    </div>
-</div>
-
-
-
-    <div class="col s6 l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/iphone.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/point.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/sad.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/baseball.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-      
-    </div>
-</div>
-
-
-<div class="col s6  l2">
-      <div class="card"> 
-        <div class="card-image">
-          <img src="img/row3/bunny.jpg" class="responsive-img materialboxed">
-          <a href="#" class="halfway-fab btn-floating pink pulse"> 
-            <i class="material-icons">favorite</i>
-          </a>
-        </div> 
-    </div>
-</div>
-</div>
-
-
-
-</div>
-</div>
-
-
- <!-- footer -->
-   <footer class="page-footer pink accent-1 scrollspy" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5>Yeonwoo</h5>
-          <p>Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo </p>
-          <p>Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+          <ul class="center-align hide-on-med-and-down">
+            <li><a href="">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about" class="">About</a></li>
           </ul>
         </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+
+    <br />
+
+    <section class="container section scrollspy firstTrivia" id="photos ">
+      <div class="row">
+        <div class="col s12 l3 push-l1">
+          <img src="img/row/1 (3).jpg" alt="" class="materialboxed responsive-img circle" />
+        </div>
+        <div class="col s12 l7 offset-l2">
+          <h4 class="pink-text text-darken-4 flow-text"  style="font-weight: 600;">
+            Stage Name: Yeonwoo (연우)
+          </h4>
+          <h6 class="pink-text text-darken-4">
+            Birth Name: Lee Da Bin (이다빈)
+          </h6>
+          <h6 class="pink-text text-darken-4">
+            Position: Vocalist, Rapper, Visual
+          </h6>
+          <h6 class="pink-text text-darken-4">Birthday: August 01, 1996</h6>
+          <h6 class="pink-text text-darken-4">Height: 169 cm (5’7″)</h6>
+          <h6 class="pink-text text-darken-4">Weight: 49 kg (108 lbs)</h6>
+          <h6 class="pink-text text-darken-4">Blood Type: B</h6>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <section class="container section scrollspy firstTrivia" id="photos">
+      <div class="row">
+        <div class="col s12 l3 push-l7">
+          <!-- <img src="img/wb.png" alt="" class="materialboxed responsive-img circle"/> -->
+          <img src="img/row/1 (2).jpg" alt="" class="materialboxed responsive-img circle" />
+        </div>
+        <div class="col s12 l7 pull-l1 left">
+          <h3 class="pink-text text-darken-4 flow-text" style="font-weight: 600;">
+            Facts about Yeonwoo
+          </h4>
+           <!-- <h6 class="pink-text text-darken-4"> &nbsp</h6>   -->   
+          <h6 class="pink-text text-darken-4"> Her hobbies are staring at the ground,</h6>
+          <h6 class="pink-text text-darken-4"> Lying down and drawing the members,</h6> 
+          <h6 class="pink-text text-darken-4"> Watching movies and anime.</h6> 
+          <h6 class="pink-text text-darken-4">She’s a big fan of Whitebeard.</h6>
+          <h6 class="pink-text text-darken-4">Her nicknames are Dachilie and Yeonwoo Neulbo (Lazy Yeonwoo).</h6>
+          <!-- <h6 class="pink-text text-darken-4">.</h6> -->
+          <!-- <h6 class="pink-text text-darken-4">She likes chicken.</h6> -->
+          <!-- <h6 class="pink-text text-darken-4">She likes fishing.</h6>
+          <h6 class="pink-text text-darken-4">She has a bad handwriting.</h6>-->     
+        </div>
+      </div>
+    </section>
+
+    <!-- <br />
+    <section class="container section scrollspy firstTrivia">
+      <div class="row">
+        <div class="col s12 l3 push-l1">
+          <img
+            src="img/row/1 (2).jpg"
+            alt=""
+            class="materialboxed responsive-img circle"
+          />
+        </div>
+        <div class="col s12 l7 offset-l1 right">
+          <br />
+          <h4 class="pink-text text-darken-4 flow-text">
+           Her hobbies are staring at the ground.
+          </h4>
+          <h4 class="pink-text text-darken-4 flow-text">
+            Watching movies and anime.
+          </h4>
+          <h4 class="pink-text text-darken-4 flow-text">
+            Lying down and drawing the members.
+          </h4>
+        </div>
+      </div>
+    </section> -->
+
+    <br />
+    <br />
+    <br />
+    <div class="gallerySection">
+      <br />
+      <div id="gallery" class="container scrollspy">
+        <div class="row">
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/whitered.jpg"
+                  class="responsive-img materialboxed"
+                  id="yeonwoo-img"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/blue.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/violet.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/whiteblue.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/red.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row2/yellow 2.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/bleach.jpg"
+                  class="responsive-img materialboxed"
+                  id="yeonwoo-img"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/elmo.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/dog.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/ace.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/white.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row1/bunny.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/blue.jpg"
+                  class="responsive-img materialboxed"
+                  id="yeonwoo-img"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/iphone.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/point.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/sad.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/baseball.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 l2">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="img/row3/bunny.jpg"
+                  class="responsive-img materialboxed"
+                />
+                <a href="#" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="footer-copyright pink darken-4 foot">
-      <div class="container center-align">&copy; 2018 Momoland</div>
-    </div>
-  </footer>
+    <!-- footer -->
+    <footer class="page-footer pink accent-1 scrollspy" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>Yeonwoo</h5>
+            <p>
+              Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo
+              Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo
+            </p>
+            <p>
+              Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo
+              Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo Yeonwoo
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#">Linked In</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
+      <div class="footer-copyright pink darken-4 foot">
+        <div class="container center-align">&copy; 2018 Momoland</div>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>  
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
     <script>
-    	$(document).ready(function(){
-    	$('.sidenav').sidenav();
-      $('.materialboxed').materialbox();
-      $('.parallax').parallax();
-      $('.scrollspy').scrollSpy();
-        $('.modal').modal();
-    	})
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".scrollspy").scrollSpy();
+        $(".modal").modal();
+      });
     </script>
-</body>
+  </body>
 </html>
-
